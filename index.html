@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <title>Rangrove Studio - Your Universe of Creativity, Unified.</title>
-  <link rel="icon" type="image/png" href="https://i.imgur.com/0I2vKn5.png" />
+  <link rel="icon" type="image/png" href="https://i.imgur.com/VtHnjwI.png" />
   <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
   <link href="https://fonts.googleapis.com" rel="preconnect" />
   <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
@@ -53,7 +53,7 @@
     <div class="layout-container flex h-full grow flex-col">
       <header class="fixed top-0 left-0 right-0 z-50 flex justify-center px-4 sm:px-8 lg:px-10">
         <nav id="main-nav"
-          class="mt-4 flex w-full max-w-7xl items-center justify-between whitespace-nowrap rounded-full border border-white/20 bg-black/20 px-6 py-3 backdrop-blur-md shadow-lg dark:border-white/10 dark:bg-black/30">
+          class="mt-4 flex w-full max-w-7xl items-center justify-between whitespace-nowrap rounded-lg border border-white/20 bg-black/20 px-6 py-3 backdrop-blur-md shadow-lg dark:border-white/10 dark:bg-black/30">
           <div id="logo-container" class="flex items-center gap-2 text-white transition-colors duration-300">
             <img id="header-logo" class="h-8 lg:h-10 w-auto transition-opacity duration-300" alt="Rangrove Studio Logo"
               src="https://i.imgur.com/8PXVobX.png"
@@ -66,11 +66,10 @@
               href="#">Pricing</a>
           </div>
           <div class="flex items-center gap-4">
-            <a href="https://api.whatsapp.com/send/?phone=9897224096&text&type=phone_number&app_absent=0"
-              target="_blank"
-              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-5 bg-primary text-background-dark text-sm font-bold leading-normal tracking-[0.015em] hover:brightness-110 transition-all hidden md:flex">
+            <button id="unlock-btn-desktop"
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-5 bg-primary text-background-dark text-sm font-bold leading-normal tracking-[0.015em] hover:brightness-110 transition-all hidden md:flex">
               <span class="truncate">Unlock Everything</span>
-            </a>
+            </button>
             <button id="menu-toggle"
               class="relative z-50 p-2 md:hidden rounded-full text-white/80 hover:text-white transition-colors">
               <span id="menu-icon" class="material-symbols-outlined !text-2xl">menu</span>
@@ -84,11 +83,10 @@
               href="#">Features</a>
             <a class="text-white text-lg font-medium py-2 border-b border-white/10 hover:text-primary transition-colors"
               href="#">Pricing</a>
-            <a href="https://api.whatsapp.com/send/?phone=9897224096&text&type=phone_number&app_absent=0"
-              target="_blank"
-              class="flex w-full cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 mt-4 bg-primary text-background-dark text-base font-bold leading-normal tracking-[0.015em] hover:brightness-110 transition-all">
+            <button id="unlock-btn-mobile"
+              class="flex w-full cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 mt-4 bg-primary text-background-dark text-base font-bold leading-normal tracking-[0.015em] hover:brightness-110 transition-all">
               <span class="truncate">Unlock Everything</span>
-            </a>
+            </button>
           </div>
         </div>
       </header>
@@ -127,55 +125,55 @@
             <div class="flex flex-col gap-4">
               <h1 class="text-white text-5xl font-black leading-tight tracking-tighter md:text-7xl">Your Universe of
                 Creativity, Unified.</h1>
-              <h2 class="max-w-xl text-white/80 text-base font-normal leading-normal md:text-lg">Get unlimited access to
+              <h2 class="max-w-xl mx-auto text-white/80 text-base font-normal leading-normal md:text-lg">Get unlimited access to
                 Envato Elements, Freepik, and Flaticon with one simple subscription. Elevate your designs, instantly.
               </h2>
             </div>
-            <a href="https://api.whatsapp.com/send/?phone=9897224096&text&type=phone_number&app_absent=0"
-              target="_blank"
+            <button id="hero-cta-btn"
               class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 px-6 bg-primary text-background-dark text-base font-bold leading-normal tracking-[0.015em] shadow-lg shadow-primary/30 transition-all hover:scale-105 hover:shadow-xl hover:shadow-primary/40 active:scale-100">
               <span class="truncate">Start Creating Now</span>
-            </a>
+            </button>
           </div>
         </div>
 
-        <section
+        <section id="product-section"
           class="relative w-full bg-amber-50 py-16 sm:py-24 dark:bg-background-dark text-slate-900 dark:text-white">
           <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 gap-y-10 lg:grid-cols-2 lg:gap-x-16 items-start">
               <div class="flex flex-col gap-6">
                 <div
                   class="relative aspect-square w-full overflow-hidden rounded-2xl bg-gray-100 dark:bg-[#2a2218] border border-black/5 dark:border-white/5 shadow-2xl">
-                  <img id="main-product-image" src="https://i.imgur.com/K8L76rU.jpeg" alt="Digital Product Bundle Cover"
+                  <img id="main-product-image" src="https://i.imgur.com/aqIP3Nm.jpeg"
+                    alt="Digital Product Bundle Cover"
                     class="h-full w-full object-cover object-center hover:scale-105 transition-all duration-500"
                     style="opacity: 1;" />
                   <div
-                    class="absolute top-4 left-4 bg-primary text-background-dark px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider hidden md:block">
+                    class="absolute top-4 left-4 bg-primary text-background-dark px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider hidden sm:block">
                     Best Seller</div>
                 </div>
                 <div class="grid grid-cols-4 gap-4">
                   <div
                     class="product-thumbnail aspect-square rounded-lg overflow-hidden bg-gray-200 dark:bg-[#3a2f22] cursor-pointer ring-2 ring-primary ring-offset-2 dark:ring-offset-background-dark hover:opacity-90 transition-all"
-                    data-image="public/Product Creatives/2.webp">
-                    <img src="https://i.imgur.com/MFFstzT.jpeg" alt="Product Preview 2"
+                    data-image="https://i.imgur.com/ZD6lHLS.jpeg">
+                    <img src="https://i.imgur.com/ZD6lHLS.jpeg" alt="Product Preview 2"
                       class="h-full w-full object-cover" />
                   </div>
                   <div
                     class="product-thumbnail aspect-square rounded-lg overflow-hidden bg-gray-200 dark:bg-[#3a2f22] cursor-pointer hover:opacity-75 hover:ring-2 hover:ring-primary hover:ring-offset-2 dark:hover:ring-offset-background-dark transition-all"
-                    data-image="public/Product Creatives/3.webp">
-                    <img src="https://i.imgur.com/bR5rLBC.jpeg" alt="Product Preview 3"
+                    data-image="https://i.imgur.com/criJtWo.jpeg">
+                    <img src="https://i.imgur.com/criJtWo.jpeg" alt="Product Preview 3"
                       class="h-full w-full object-cover" />
                   </div>
                   <div
                     class="product-thumbnail aspect-square rounded-lg overflow-hidden bg-gray-200 dark:bg-[#3a2f22] cursor-pointer hover:opacity-75 hover:ring-2 hover:ring-primary hover:ring-offset-2 dark:hover:ring-offset-background-dark transition-all"
-                    data-image="public/Product Creatives/4.webp">
-                    <img src="https://i.imgur.com/6RY2CvW.jpeg" alt="Product Preview 4"
+                    data-image="https://i.imgur.com/msmcBzf.jpeg">
+                    <img src="https://i.imgur.com/msmcBzf.jpeg" alt="Product Preview 4"
                       class="h-full w-full object-cover" />
                   </div>
                   <div
                     class="product-thumbnail aspect-square rounded-lg overflow-hidden bg-gray-200 dark:bg-[#3a2f22] cursor-pointer hover:opacity-75 hover:ring-2 hover:ring-primary hover:ring-offset-2 dark:hover:ring-offset-background-dark transition-all"
-                    data-image="public/Product Creatives/5.webp">
-                    <img src="https://i.imgur.com/I986bRf.jpeg" alt="Product Preview 5"
+                    data-image="https://i.imgur.com/gweY4Nz.jpeg">
+                    <img src="https://i.imgur.com/gweY4Nz.jpeg" alt="Product Preview 5"
                       class="h-full w-full object-cover" />
                   </div>
                 </div>
@@ -202,20 +200,19 @@
                 <div
                   class="rounded-xl bg-white p-6 shadow-sm ring-1 ring-gray-900/5 dark:bg-[#2a2218] dark:ring-white/10">
                   <div class="flex items-baseline gap-2 mb-2">
-                    <span class="text-4xl font-bold text-slate-900 dark:text-white">$29.00</span>
-                    <span class="text-lg text-gray-500 line-through decoration-red-500/50 decoration-2">$199.00</span>
+                    <span class="text-4xl font-bold text-slate-900 dark:text-white">₹499.00</span>
+                    <span class="text-lg text-gray-500 line-through decoration-red-500/50 decoration-2">₹1,999.00</span>
                     <span
                       class="ml-2 rounded-full bg-green-100 px-2.5 py-0.5 text-xs font-medium text-green-800 dark:bg-green-900/30 dark:text-green-400">Save
-                      85%</span>
+                      75%</span>
                   </div>
-                  <p class="text-sm text-gray-500 dark:text-gray-400 mb-6">One-time payment. Lifetime access. Instant
-                    download.</p>
+                  <p class="text-sm text-gray-500 dark:text-gray-400 mb-6">Monthly billing. Seamless
+                    access.</p>
                   <div class="flex flex-col gap-3">
-                    <a href="https://api.whatsapp.com/send/?phone=9897224096&text&type=phone_number&app_absent=0"
-                      target="_blank"
+                    <button id="buy-now-btn"
                       class="flex w-full items-center justify-center gap-2 rounded-lg bg-primary py-3.5 text-center text-sm font-bold text-background-dark shadow-lg shadow-primary/20 transition-all hover:brightness-110 hover:shadow-primary/40 active:scale-95">
                       <span class="material-symbols-outlined !text-xl">shopping_bag</span>Buy Now - Instant Access
-                    </a>
+                    </button>
                   </div>
                 </div>
                 <div class="prose prose-slate dark:prose-invert">
@@ -228,7 +225,7 @@
                         class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
                         <span class="material-symbols-outlined !text-sm">check</span>
                       </div>
-                      <span class="text-sm text-gray-700 dark:text-gray-200">Unlimited downloads of 50,000+ Premium
+                      <span class="text-sm text-gray-700 dark:text-gray-200">Access to 50,000+ Creative-Ready
                         Assets</span>
                     </div>
                     <div class="flex gap-3">
@@ -236,23 +233,24 @@
                         class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
                         <span class="material-symbols-outlined !text-sm">check</span>
                       </div>
-                      <span class="text-sm text-gray-700 dark:text-gray-200">Commercial License included for all
-                        items</span>
+                      <span class="text-sm text-gray-700 dark:text-gray-200">High-Quality Templates, Graphics & Icons
+                        Included</span>
                     </div>
                     <div class="flex gap-3">
                       <div
                         class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
                         <span class="material-symbols-outlined !text-sm">check</span>
                       </div>
-                      <span class="text-sm text-gray-700 dark:text-gray-200">Priority Support & Monthly Updates</span>
+                      <span class="text-sm text-gray-700 dark:text-gray-200">Fast Support & Regular Content
+                        Updates</span>
                     </div>
                     <div class="flex gap-3">
                       <div
                         class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
                         <span class="material-symbols-outlined !text-sm">check</span>
                       </div>
-                      <span class="text-sm text-gray-700 dark:text-gray-200">Access to exclusive community
-                        Discord</span>
+                      <span class="text-sm text-gray-700 dark:text-gray-200">Member-Only Resource
+                        Channel</span>
                     </div>
                   </div>
                 </div>
@@ -290,7 +288,7 @@
                 </div>
                 <h3 class="text-lg font-bold mb-2">1. Make the Payment</h3>
                 <p class="text-sm text-gray-600 dark:text-gray-400">Choose your plan and complete the purchase using UPI
-                  or card.</p>
+                  or any other payment method.</p>
               </div>
               <div class="flex flex-col items-center text-center relative z-10 group">
                 <div
@@ -426,11 +424,10 @@
               <div class="col-span-2 md:col-span-1 lg:col-span-1">
                 <h4 class="text-sm font-bold tracking-wider uppercase text-primary mb-4">Connect</h4>
                 <p class="text-sm text-gray-600 dark:text-gray-400 mb-4">Have questions? We're here to help.</p>
-                <a href="https://api.whatsapp.com/send/?phone=9897224096&text&type=phone_number&app_absent=0"
-                  target="_blank"
+                <button id="footer-support-btn"
                   class="flex w-full items-center justify-center gap-2 rounded-lg bg-primary py-2.5 text-center text-sm font-bold text-background-dark shadow-md transition-all hover:brightness-110 active:scale-95">
                   <span class="material-symbols-outlined !text-xl">mail</span>Contact Support
-                </a>
+                </button>
               </div>
             </div>
             <div class="mt-12 pt-8 border-t border-gray-200 dark:border-white/10">
@@ -442,11 +439,11 @@
       </main>
     </div>
 
-    <a href="https://api.whatsapp.com/send/?phone=9897224096&text&type=phone_number&app_absent=0" target="_blank"
+    <button id="floating-support-btn"
       class="fixed bottom-6 right-6 z-40 flex items-center gap-2 rounded-full bg-primary px-5 py-3 text-background-dark text-sm font-bold shadow-xl shadow-primary/40 transition-all hover:scale-[1.03] hover:brightness-110 active:scale-100">
       <span class="material-symbols-outlined !text-xl">support_agent</span>
       <span class="hidden sm:inline">Get Support</span>
-    </a>
+    </button>
   </div>
 
   <script>
@@ -455,6 +452,7 @@
       const menuIcon = document.getElementById('menu-icon');
       const mobileMenu = document.getElementById('mobile-menu');
       const body = document.body;
+      const whatsappUrl = 'https://api.whatsapp.com/send/?phone=9897224096&text&type=phone_number&app_absent=0';
 
       menuToggle.addEventListener('click', () => {
         const isMenuOpen = mobileMenu.classList.toggle('hidden');
@@ -503,7 +501,7 @@
           menuToggleBtn.classList.remove('text-white/80', 'hover:text-white');
           menuToggleBtn.classList.add('text-slate-700', 'hover:text-primary', 'dark:text-white/80', 'dark:hover:text-white');
         } else {
-          nav.classList.remove('border-[#FFE4B5]', 'bg-[#FFF5E6]', 'shadow-amber-200/30', 'dark:border-amber-700/50', 'dark:bg-gradient-to-r', 'dark:from-purple-900', 'dark:via-purple-800', 'dark:to-indigo-900');
+          nav.classList.remove('border-[#FFE4B5]', 'bg-[#FFF5E6]', 'shadow-amber-200/30', 'dark:border-amber-700/50', 'dark:bg-gradient-to-r', 'dark:from-purple-900', 'dark:via-purple-800', 'dark:to-indigo-909');
           nav.classList.add('bg-black/20', 'backdrop-blur-md', 'border-white/20', 'dark:border-white/10', 'dark:bg-black/30');
           nav.classList.replace('border-2', 'border');
           headerLogo.src = glassLogo;
@@ -524,7 +522,7 @@
 
       const mainImage = document.getElementById('main-product-image');
       const thumbnails = document.querySelectorAll('.product-thumbnail');
-      const mainImageSrc = 'public/Product Creatives/Main.webp';
+      const mainImageSrc = 'https://i.imgur.com/aqIP3Nm.jpeg';
 
       thumbnails.forEach(thumbnail => {
         thumbnail.addEventListener('mouseenter', function () {
@@ -543,6 +541,24 @@
             mainImage.style.opacity = '1';
           }, 150);
         });
+      });
+
+      // Make primary CTA buttons open WhatsApp
+      const unlockBtnDesktop = document.getElementById('unlock-btn-desktop');
+      const unlockBtnMobile = document.getElementById('unlock-btn-mobile');
+      const heroCtaBtn = document.getElementById('hero-cta-btn');
+      const buyNowBtn = document.getElementById('buy-now-btn');
+      const footerSupportBtn = document.getElementById('footer-support-btn');
+      const floatingSupportBtn = document.getElementById('floating-support-btn');
+
+      function openWhatsApp() {
+        window.open(whatsappUrl, '_blank');
+      }
+
+      [unlockBtnDesktop, unlockBtnMobile, heroCtaBtn, buyNowBtn, footerSupportBtn, floatingSupportBtn].forEach(btn => {
+        if (btn) {
+          btn.addEventListener('click', openWhatsApp);
+        }
       });
     });
   </script>
